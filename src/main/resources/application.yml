@@ -1,0 +1,11 @@
+spring:
+  data:
+    cassandra:
+      controlconnection:
+        timeout: 30s
+      request:
+        consistency: local_quorum
+        timeout: 30s
+      connection:
+        connect-timeout: 30s
+        init-query-timeout: 30s
